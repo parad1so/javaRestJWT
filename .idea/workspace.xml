@@ -75,13 +75,24 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="JavarestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="JwtAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="javaRestJWT" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.seoweblab.restjwt.javarest.JavarestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.seoweblab.jwtRestApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.seoweblab.jwtRestApp.JwtAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.JwtAppApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,6 +106,7 @@
       <updated>1619558316991</updated>
       <workItem from="1619558318828" duration="791000" />
       <workItem from="1620474992006" duration="5415000" />
+      <workItem from="1627327104746" duration="212000" />
     </task>
     <servers />
   </component>
